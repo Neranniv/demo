@@ -1,0 +1,32 @@
+ ! Do these the first time. !
+    - >git config --global user.email <"email">
+    - >git config --global user.name <"user name">
+
+-----------------------------------------------------
+
+1. Get the repository from Github.
+    - Go to your preferred directory.
+    - >git clone git@github.com:<"Name/Repository">.git
+    - A new directory will be created with
+      the repository name.
+
+2. Text files.
+     - Open a textfile.
+        - ><textfile>
+        - Save it. 
+     - Add a new textfile.
+        - >Notepad <textfile>
+        - Type something.
+        - Save it.
+        
+3. Add the file.
+    - >git add <file name>
+
+4. Commit changes to repository.
+    - >git commit -m "<revision>"
+    - Repat for more text files.
+
+5. Send repository to your Github.
+    - >git push
+
+The end.
